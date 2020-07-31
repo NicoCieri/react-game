@@ -10,6 +10,7 @@ This project is an small game built with React.
 > - When you win, you will get a "You won" message and won't be able to move any more
 > - If you do run out of moves before you reach the target cell, then you lose:
 > - When you lose, you will get a "You lost" message and won't be able to move any more
+> - You can restart the game clicking the Restart button
 
 <br />
 
