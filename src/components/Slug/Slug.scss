@@ -1,0 +1,35 @@
+.slug {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 5px solid #000;
+  position: absolute;
+  margin: 1rem;
+  box-shadow: 0px 0px 20px #ccc;
+  transition: all 0.4s;
+  left: 0;
+  top: 0;
+
+  &.won {
+    animation: bounce 0.5s linear infinite 0.1s;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-1rem, 0);
+  }
+  25% {
+    transform: translate(0, -1rem);
+  }
+  50% {
+    transform: translate(1rem, 0);
+  }
+  75% {
+    transform: translate(0, 1rem);
+  }
+  100% {
+    transform: translate(-1rem, 0);
+  }
+}

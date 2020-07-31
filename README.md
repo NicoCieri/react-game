@@ -1,3 +1,18 @@
+# React game
+
+This project is an small game built with React.
+
+## The rules of the final game are the following:
+
+> - You (the black and white circle) start at a customizable initial position
+> - You can move using your keyboard's arrows (up/down/left/right)
+> - Your objective is to move from the initial cell (yellow) to the target cell (green) before you run out of moves.
+> - When you win, you will get a "You won" message and won't be able to move any more
+> - If you do run out of moves before you reach the target cell, then you lose:
+> - When you lose, you will get a "You lost" message and won't be able to move any more
+
+<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

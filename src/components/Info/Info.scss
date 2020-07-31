@@ -1,0 +1,22 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+
+  .moves {
+    font-size: 2rem;
+  }
+
+  .result {
+    font-size: 2rem;
+    font-weight: bold;
+
+    .won {
+      color: #00a800;
+    }
+
+    .lost {
+      color: #f00;
+    }
+  }
+}
